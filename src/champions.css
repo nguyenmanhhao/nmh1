@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:BeaufortforLOL-Bold ;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.logo {
+    text-align: center;
+    padding: 32px 0;
+}
+
+.menu ul {
+    text-align: center;
+    padding-bottom:  62px; ;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li:hover {
+    text-decoration: underline;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    margin: 0 16px;
+}
+
+
+.champ {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 32px;
+}
+
+.champ-info a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.champ-info button {
+    background-color: #0E4C67;
+    width: 328px;
+    height: 80px;
+    font-size: 20px;
+    color: #ffff;
+    border: none;
+    margin-top: -5px;
+}
+
+.intro-video {
+    padding-top: 64px ;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+    background:  #0E4C67;
+    padding: 0 16px;
+    margin-top: 64px;
+}
+
+.copyright {
+    color: #ffff;
+    font-size: 20px;
+    margin: auto 0;
+}
+
+.email {
+    text-align: right;
+    margin: auto 0;
+}
+
+.inp-email {
+    width: 278px;
+    height: 50px;
+    border: 2px solid #FFA800;
+    border-radius: 5px;
+    background: transparent;
+    padding-left:  25px; 
+}
+
+::placeholder {
+    color:  #ffff;
+}
+
+.btn-submit {
+    width: 120px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    background:  #FFA800;
+    color: #ffff;
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+}

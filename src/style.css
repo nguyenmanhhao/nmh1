@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: BeaufortforLOL-Bold;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.logo {
+    text-align: center;
+    padding: 32px 0;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    padding: 0 16px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.discover-champion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+}
+
+.discover-champion-content {
+    margin: auto 0;
+}
+
+.discover-champion-content h2 {
+    font-size: 40px;
+}
+
+.discover-champion-content p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.discover-champion-content button {
+    font-size: 20px;
+    background-color: #0E4C67;
+    color: #ffff;
+    width: 320px;
+    height: 55px;
+    border: none;
+}
+
+.discover-champion-content button:hover{
+    cursor: pointer;
+}
+
+.favourite-champion-title h2 {
+    font-size: 48px;
+    text-align: center;
+    padding: 64px 0;
+}
+
+.favourite-champion-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 32px;
+    padding: 0 16px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #0e4c67;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 16px;
+    margin-top: 64px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 20px;
+    margin: auto 0;
+}
+
+.email {
+    text-align: right;
+    margin: auto 0;
+}
+
+.inp-email {
+    width: 280px;
+    height: 52px;
+    border: 1px solid #FFA800;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 26px;
+}
+
+.btn-submit {
+    width: 120px;
+    height: 52px;
+    background-color: #FFA800;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 24px;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+}

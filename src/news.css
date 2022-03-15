@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: BeaufortforLOL-Bold ;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.logo {
+    text-align: center;
+    margin: 32px 0;
+
+}
+
+.menu ul {
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a{
+    text-decoration: none;
+   font-size: 20px;
+   margin: 0 16px;
+   color: #000;
+
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 1440px;
+    margin: auto;
+    margin-left: 60px;
+}
+
+.content-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    grid-gap: 32px;
+}
+
+.content-img {
+    margin-left: -20px; 
+}
+
+.content-info {
+    margin-left: -120px;
+}
+
+.content-info a {
+    color: #AEAEAE;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.content-info h3 {
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.content-info p {
+    font-size: 16px;
+    padding-top: 14px;
+}
+
+.main-content {
+    width: 1440px;
+    margin: auto;
+}
+
+.main-content-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 32px;
+    padding-top: 50px;
+}
+
+.main-content-img {
+    margin-left: 16px;
+}
+
+.main-content__img1 {
+    margin-top: -60px;
+}
+
+.main-content__img2 {
+    margin-top: -120px;
+}
+
+.main-content__img3{
+    margin-top: -175px;
+}
+
+.main-content__img4 {
+    margin-top: -230px;
+}
+
+.main-content__img5 {
+    width: 50px;
+}
+
+.main-content-info{
+    margin: auto 0;
+    
+}
+
+.main-content-info a {
+    margin-bottom: 1000px;
+    text-decoration: none;
+    color: #0BE7E7;
+    
+}
+
+.main-content-info h3 {
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.main-content-info p{
+    font-size: 16px;
+    line-height: 1.6;
+    padding-top: 16px;
+}
+
+.main-content-info h4 {
+    padding-top: 32px;
+   color: #AEAEAE;
+   font-size: 16px;
+}
+
+.content-champ {
+    padding-top: 83px;
+    text-align: center;
+}
+
+.content-champ a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.content-champ img {
+    margin-left: 18px;
+}
+
+.btn-content {
+    padding-top: 66px;
+    
+}
+
+.btn-content button  {
+    text-align: center;
+    width: 1410px;
+    height: 64px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+
+.btn-content button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.intro-video {
+   padding: 64px 0;
+}
+
+.footer{
+    background-color:  #0E4C67;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.copyright {
+    margin: auto 0;
+    margin-left: 16px;
+}
+
+.copyright a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.email {
+    margin: auto 0;
+    text-align: right;
+    margin-right: 23px;
+}
+
+.inp-email {
+    width: 278px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #FFA800;
+    border-radius: 5px;
+    margin-right: 24px;
+    padding-left: 25px;
+}
+::placeholder {
+    color: #fff;
+}
+
+.btn-email {
+    width: 120px;
+    height: 52px;
+    background-color: #FFA800;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-email:hover {
+    cursor: pointer;
+}
+
